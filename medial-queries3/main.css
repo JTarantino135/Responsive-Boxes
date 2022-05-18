@@ -1,3 +1,106 @@
 body {
   background: peachpuff;
 }
+
+@media screen and (min-width:300px){
+  .container {
+    height: 450px;
+  width: 250px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: black;
+  overflow: hidden;
+  display: flexbox;
+  }
+
+  .a {
+    margin-left: 10px;
+  margin-top: 7px;
+  height: 60px;
+  width: 230px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: red;
+  text-align: center;
+  font-size: 50px;
+  }
+
+  .b {
+    margin-left: 10px;
+    margin-top: 17px;
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .c {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    margin-top: -70px;
+    margin-left: 90px;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .d {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    margin-top: -70px;
+    margin-left: 170px;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .e {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .f {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    position: relative;
+    margin-top: -70px;
+    margin-left: 90px;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .g {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    position: relative;
+    margin-top: -70px;
+    margin-left: 170px;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .h {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 190px;
+    width: 230px;
+    background-color: red;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+  }
+}
